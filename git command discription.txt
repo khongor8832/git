@@ -1,0 +1,113 @@
+
+
+
+-------------------------------------Бэлтгэл ажил. тохиргоо болон бусад команд--------------
+1. dir: Одоо байгаа файлын систэм гаргадаг. 
+2. pwd: Одоо ажиллаж байгаа folder - ийн харуулдаг. 
+3. ls: Mac & Linux & windows үйлдлийн системийн идэвхтэй байгааа файлын систэм гаргадаг.
+4. start: User -ийн home derctory -ийг гаргаж ирдэг байгаа. 
+5. mkdir /foldername/: folder үүсгэх
+6. git log - ямар ямар comment бичсэнийг харуулна. 
+7. q - дээр дарахад гарна. 
+8. mv terminal-config/ .terminal-config: Цэгтэй нэр хадгалж болохгүй байвал ингэж хадгална. 
+
+
+-------------------------------------1. Эхлэх  ----------------------------------------------
+
+1. git init: Тухайн төслийн хавтас дотор хоосон git repository үүсгэж өгнө. 
+	Үл үзэгдэх .git гэсэн хавтас үүсдэг. 
+2. git config --list
+3. git congif --global user.name "NAME": Энэ git систем дээр ажиллаж буй хүний нэр
+4. git congif --global user.email "email@address.com": Энэ git систем дээр ажиллаж буй хүний имэйл
+
+
+
+-----------------------------------2. Git local repository-той ажиллах үндсэн командууд-------
+
+git status - Одоо төслийн файлууд ямар байдалтай байгааг харууулна. 
+git add -A - Файлынг өөрчлөлтийг repositoty-д хадгалахаар сонгоно. 
+git commit -m - Сонгосон файлын repository-д бичнэ. 
+git checkout - repository дотороос файлыг буцаан гаргаж авна. 
+
+-----------------------------------3. Github repository-той ажиллах үндсэн командууд---------
+
+1. git remote -v 
+2. git remote add origin https://github.com/khongor8832/1234.mn.git 
+3. git remote -v 
+4. git branch 
+5. git push origin master 
+
+-----------------------------------4. finish ----------------------------------------------
+
+----------------------------- -----1. Branch үүсгэх ------------------------------------------ 
+
+branch үүсгэх 
+
+git branch - ямар ямар branch байгааг харна. 
+git branch /шинээр branch үүсгэх хэрийг бичнэ. Example: feature-two-dice/
+git branch - Хоёр branch үүссэн. master болон feature-two-dice branch.
+git checkout feature-two-dice - Салбарласан branch болох feature-two-dice од тэмдэгтэй болж ногоон өнгөтэй болсон байна. 
+
+----------------------------------2. Салбарласан branch-д хийж байсанаа хадгалах------------------
+
+ Салбарласан branch дээр ажиллаж байх үед master branch дээр засвар хийх үед: Хийж байсан branch- ийн файлаа local repository хадгалах 
+
+1 git status
+2 git add -A
+3 git status 
+4 git commit -m "hoyr shootoi huwilbar deer ajillah branch uusgelee"
+5 git status 
+
+-----------------------------------3. Branch солих------------------------------------------------
+master branch шилжих:
+
+1 git checkout master 
+
+-----------------------------------4. Master branch onlian болгох----------------------------------
+
+master branch дээр засвар хийх:
+epample: index.html засварлаад дуусахад
+1 git status 
+2 git add -A
+3 git commit -m "start buutoniig new button bolgow"
+4 git status
+5 git push origin master 
+
+Буцаад хийж байсан салбарласан branch руу шилжих үед:
+
+1 git branch 
+2 git checkout feature-two-dice
+3 git status 
+
+Салбарласан branch дээр хийж байснаа дуусахад  
+1 git status
+2 git add -A
+3 git commit -m 'roll dice towchiig roll dices bolgoson'
+4 git status 
+
+Одоо master branch-тайгаа нийлүүлэх  
+1 git checkout master 
+2 git merge feature-two-dice
+
+
+
+Төслийг татаж авах: 3 төрөл 
+
+1. Desktop дээр site гэсэн foder нээгээд дотор ороод git bash ажилуула. Broser дээрх github руугаа ороод clone download руу ороход HTTPS гэдгийг сонгосны дараа хуулж авна. git bash -даа дараах командыг бичнэ. Public
+git clone https://github.com/khongor8832/dice.git 
+татагдна.
+
+2. onlian repository өөрчлөгдсөн, onlian-аар багаар ажиллах, өөрөө өөрчилөөд татаж авах үед: 
+	Broser дээрх github руугаа ороод dice гэсэн repository ороод index.html -ийн  edit this file гэсэн товчлуурийг дараад өөрчилөөд доор нь commit changes хэсэгт commit бичиж өгөөд commit changes дарснаар гарчийг өөрчлөв.  Өөрийнхөө хийсэн project -руу ороод git bash ажилуулаад 
+
+ git remote -v - өгөхөд
+origin  git@github.com:khongor8832/dice.git (fetch)
+origin  git@github.com:khongor8832/dice.git (push)
+
+git pull origin master - татагдна. 
+git log - команд өгөхөд commit хийсэн файл харагдана.  
+
+3. clone download -> zip download татаж авна. 
+
+
+ 
