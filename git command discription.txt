@@ -94,11 +94,11 @@ epample: index.html засварлаад дуусахад
 
 Төслийг татаж авах: 3 төрөл 
 
-1. Desktop дээр site гэсэн foder нээгээд дотор ороод git bash ажилуула. Broser дээрх github руугаа ороод clone download руу ороход HTTPS гэдгийг сонгосны дараа хуулж авна. 
-	git bash -даа дараах командыг бичнэ. Public git clone https://github.com/khongor8832/dice.git татагдна.
+1. Public файлыг татахдаа git clone https://github.com/khongor8832/dice.git татагдна.
 
 2. onlian repository өөрчлөгдсөн, onlian-аар багаар ажиллах, өөрөө өөрчилөөд татаж авах үед: 
-	Broser дээрх github руугаа ороод (dice) гэсэн repository ороод (index.html) -ийн  edit this file гэсэн товчлуурийг дараад өөрчилөөд доор нь commit changes хэсэгт commit бичиж
+	Broser дээрх github руугаа ороод (dice) гэсэн repository ороод (index.html) -ийн  edit this file гэсэн товчлуурийг
+	 дараад өөрчилөөд доор нь commit changes хэсэгт commit бичиж
  	өгөөд commit changes дарснаар гарчийг өөрчлөв.  Өөрийнхөө хийсэн project -руу ороод git bash ажилуулаад 
 git remote -v - өгөхөд 
 origin  git@github.com:khongor8832/dice.git (fetch)
@@ -111,7 +111,13 @@ git log - команд өгөхөд commit хийсэн файл харагда�
 
 
 
-
+татах үед зам нэмж өгөгхөд 
+git init
+git add -A
+git commit -m "first commit"
+git remote add origin https://github.com/khongor8832/dfsadsa.git
+git push -u origin master
+                
 Замыг нь солих: 
 git remote set-url origin https://github.com/khongor8832/git.git
 git remote -v ---> энэ нь ямар замаар push fetch хийх гэж байгааг харуулдаг. 
