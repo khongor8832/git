@@ -18,8 +18,8 @@
 1. git init: Тухайн төслийн хавтас дотор хоосон git repository үүсгэж өгнө. 
 	Үл үзэгдэх .git гэсэн хавтас үүсдэг. 
 2. git config --list
-3. git congif --global user.name "NAME": Энэ git систем дээр ажиллаж буй хүний нэр
-4. git congif --global user.email "email@address.com": Энэ git систем дээр ажиллаж буй хүний имэйл
+3. git config --global user.name "NAME": Энэ git систем дээр ажиллаж буй хүний нэр
+4. git config --global user.email "email@address.com": Энэ git систем дээр ажиллаж буй хүний имэйл
 
 
 
