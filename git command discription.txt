@@ -93,8 +93,22 @@ epample: index.html засварлаад дуусахад
 
 github ашиглан merge хийх арга 
 
-git branch - branch-ын нэр шинээр branch үүсгэж байна. 
-git checkout - шинээр branch үүсгэсэн нэрээ бичиж өгнө. Branch хооронд шилжиж байна.  
+git branch two-branch - гэсэн нэртэй branch шинээр үүсгэж байна. 
+git checkout two-branch - Branch хооронд шилжиж байна.
+two-branch шинээр branch дотороо явж байгаа 
+git add -A
+git commit -m "2020.09.08"
+Одоо github руу хуулахдаа шинээр үүсгэсэн branch руу хуулна. 
+git push origin two-branch 
+Одоо github-руу ороход Compare & pull request гэсэн button гарч ирнэ. 
+Compare & pull request
+Assignees - Хамтран ажиллаж байгаа хүмүүсээ нэмж өгнө. хянуулна. 
+Create pull reguest 
+Merge pull request 
+Confirm merge 
+Delete branch -дарсанааар ок болсон. Одоо command line ороод master branch руу шилжинэ. 
+git checkout master 
+
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 Төслийг татаж авах: 3 төрөл 
@@ -126,5 +140,5 @@ git push -u origin master
 Замыг нь солих: 
 git remote set-url origin https://github.com/khongor8832/git.git
 git remote -v ---> энэ нь ямар замаар push fetch хийх гэж байгааг харуулдаг. 
-git push origin master --> гэвэл дээрх замаар хуулагдаж onlian болно гэсэн үг юм. 
+git push origin master --> гэвэл дээрх замаар хуулагдаж onlian болно гэсэн үг юм. cscsacsacsaca
  
