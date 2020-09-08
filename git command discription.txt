@@ -140,5 +140,5 @@ git push -u origin master
 Замыг нь солих: 
 git remote set-url origin https://github.com/khongor8832/git.git
 git remote -v ---> энэ нь ямар замаар push fetch хийх гэж байгааг харуулдаг. 
-git push origin master --> гэвэл дээрх замаар хуулагдаж onlian болно гэсэн үг юм. 
+git push origin master --> гэвэл дээрх замаар хуулагдаж onlian болно гэсэн үг юм. cscsacsacsaca
  
