@@ -91,7 +91,11 @@ epample: index.html засварлаад дуусахад
 1 git checkout master 
 2 git merge feature-two-dice
 
+github ашиглан merge хийх арга 
 
+git branch - branch-ын нэр шинээр branch үүсгэж байна. 
+git checkout - шинээр branch үүсгэсэн нэрээ бичиж өгнө. Branch хооронд шилжиж байна.  
+//////////////////////////////////////////////////////////////////////////////////////////////
 
 Төслийг татаж авах: 3 төрөл 
 
