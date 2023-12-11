@@ -1,0 +1,158 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "editor.wordWrap": "on",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "codegpt.apiKey": "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",
+    "git.openRepositoryInParentFolders": "never",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "cmake.configureOnOpen": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#00FF0010"
+        },
+        {
+            "column": 100,
+            "color": "#BDB76B15"
+        },
+        {
+            "column": 120,
+            "color": "#FA807219"
+        }
+    ],
+    "editor.unicodeHighlight.includeComments": true,
+    "emmet.variables": {
+        "lang": "en"
+    },
+    "workbench.colorCustomizations": {
+        "[Default Dark Modern]": {
+            "tab.activeBorderTop": "#00FF00",
+            "tab.unfocusedActiveBorderTop": "#00FF0088",
+            "textCodeBlock.background": "#00000055"
+        },
+        "editor.wordHighlightStrongBorder": "#FF6347",
+        "editor.wordHighlightBorder": "#FFD700",
+        "editor.selectionHighlightBorder": "#A9A9A9"
+    },
+    "workbench.editor.revealIfOpen": true,
+    "workbench.tree.indent": 20,
+    "files.eol": "\n",
+    "[bat]": {
+        "files.eol": "\r\n"
+    },
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.tabs.hideCondition": "never",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.sources.organizeImports.staticStarThreshold": 1,
+    "cSpell.diagnosticLevel": "Hint",
+    "trailing-spaces.includeEmptyLines": false,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "C:\\Program Files\\Java\\jdk1.8.0_202"
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "C:\\Program Files\\Java\\jdk-11.0.14"
+        },
+        {
+            "name": "JavaSE-17",
+            "path": "C:\\Users\\iteng\\.jdks\\corretto-17.0.5",
+            "default": true
+        },
+        {
+            "name": "JavaSE-19",
+            "path": "C:\\Program Files\\Java\\jdk-19"
+        },
+        {
+            "name": "JavaSE-20",
+            "path": "C:\\Users\\iteng\\.jdks\\openjdk-20.0.1"
+        },
+        {
+            "name": "JavaSE-21",
+            "path": "C:\\Users\\iteng\\.jdks\\openjdk-21.0.1"
+        }
+    ],
+    "java.import.gradle.java.home": "C:\\Users\\iteng\\.jdks\\openjdk-21.0.1",
+    "terminal.integrated.profiles.windows": {
+        "JavaSE-1.8": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Program Files\\Java\\jdk1.8.0_202\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_202"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-11": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Program Files\\Java\\jdk-11.0.14\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Program Files\\Java\\jdk-11.0.14"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-17": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Users\\iteng\\.jdks\\corretto-17.0.5\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Users\\iteng\\.jdks\\corretto-17.0.5"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-19": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Program Files\\Java\\jdk-19\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Program Files\\Java\\jdk-19"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-20": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Users\\iteng\\.jdks\\openjdk-20.0.1\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Users\\iteng\\.jdks\\openjdk-20.0.1"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-21": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Users\\iteng\\.jdks\\openjdk-21.0.1\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Users\\iteng\\.jdks\\openjdk-21.0.1"
+            },
+            "path": "cmd"
+        }
+    },
+    "java.import.gradle.home": "c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest",
+    "maven.executable.path": "c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin\\mvn",
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "C:\\Users\\iteng\\.jdks\\openjdk-21.0.1"
+        }
+    ],
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\iteng\\.jdks\\openjdk-21.0.1\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin;c:\\Users\\iteng\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest\\bin;${env:PATH}",
+        "JAVA_HOME": "C:\\Users\\iteng\\.jdks\\openjdk-21.0.1"
+    }
+}
